@@ -64,6 +64,7 @@ class StockList extends Component {
   }
 
   render() {
+    console.log(this.props.finalData);
     return (
       <div className="lower">
         <table className="table-hover">
